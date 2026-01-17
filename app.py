@@ -1,34 +1,30 @@
 # from app_graph.graph_builder import build_graph
-# from db.reminder_db import get_due_reminders
 # from pipeline import meaning_pipeline
 # from pipeline import intent_pipeline
 # from pipeline.entity_pipeline import extract_entities
 # from app_graph.router import route
+# from services.rag_loader import load_or_create_vectorstore
 
-
-# graph = build_graph()
-# app.py
 
 from app_graph.graph_builder import build_graph
-from pipeline import meaning_pipeline
-from pipeline import intent_pipeline
-from pipeline.entity_pipeline import extract_entities
-from app_graph.router import route
+from services.rag_loader import load_or_create_vectorstore
 
 
+# ==================================================
+# 1️⃣ LOAD VECTORSTORE (ONCE AT STARTUP)
+# ==================================================
+vectorstore = load_or_create_vectorstore()
 
-# Build graph once (if you are using LangGraph)
+
+# ==================================================
+# 2️⃣ BUILD LANGGRAPH (ONCE)
+# ==================================================
 graph = build_graph()
 
 
 def run_pipeline(user_text: str, user_id: int):
     """
-    Main orchestration pipeline.
-    Handles:
-    - Meaning extraction
-    - Entity extraction
-    - Intent detection
-    - Routing to correct agent
+    Main orchestration pipeline using LangGraph.
     """
 
     print("🟡 run_pipeline START")
@@ -36,41 +32,27 @@ def run_pipeline(user_text: str, user_id: int):
 
     try:
         # ==================================================
-        # 1️⃣ MEANING EXTRACTION (RAW TEXT)
+        # 3️⃣ INITIAL STATE FOR LANGGRAPH
         # ==================================================
-        meaning = meaning_pipeline.run(user_text)
-        print("🟢 MEANING:", meaning)
+        state = {
+            "user_id": user_id,
+            "user_query": user_text,
+            "vectorstore": vectorstore,
+            "intent": None,
+            "meaning": None,
+            "entities": None,
+            "result": None
+        }
 
         # ==================================================
-        # 2️⃣ ENTITY EXTRACTION (RAW TEXT)
+        # 4️⃣ INVOKE LANGGRAPH
         # ==================================================
-        entities = extract_entities(user_text)
-        print("🟢 ENTITIES:", entities)
+        final_state = graph.invoke(state)
 
-        # ==================================================
-        # 3️⃣ INTENT DETECTION
-        # ==================================================
-        intent = intent_pipeline.run(
-            meaning=meaning,
-            entities=entities,
-            user_text=user_text
-        )
-        print("🟢 INTENT:", intent)
-
-        # ==================================================
-        # 4️⃣ ROUTE TO CORRECT AGENT
-        # ==================================================
-        response = route(
-            user_id=user_id,
-            intent=intent,
-            context=user_text,   # ALWAYS raw user text
-            meaning=meaning,
-            entities=entities
-        )
-
-        print("🟢 RESPONSE:", response)
+        print("🟢 FINAL STATE:", final_state)
         print("🟡 run_pipeline END")
-        return response
+
+        return final_state.get("result", "❌ No response generated")
 
     except Exception as e:
         print("🔴 ERROR in run_pipeline:", e)
