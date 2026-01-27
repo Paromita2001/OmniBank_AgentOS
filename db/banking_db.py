@@ -76,6 +76,57 @@ def create_tables():
     conn.close()
     print("✅ Tables created successfully")
 
+def insert_users():
+    conn = get_connection()
+    cursor = conn.cursor()
+
+    users = [
+        ("Paromita", "7205013256", "paromitakarmakar06@gmail.com", "paromita@1234"),
+        ("User2", "9000000002", "u2@example.com", "pass"),
+        ("User3", "9000000003", "u3@example.com", "pass"),
+        ("User4", "9000000004", "u4@example.com", "pass"),
+        ("User5", "9000000005", "u5@example.com", "pass"),
+        ("User6", "9000000006", "u6@example.com", "pass"),
+        ("User7", "9000000007", "u7@example.com", "pass"),
+        ("User8", "9000000008", "u8@example.com", "pass"),
+        ("User9", "9000000009", "u9@example.com", "pass"),
+        ("User10", "9000000010", "u10@example.com", "pass"),
+    ]
+
+    cursor.executemany("""
+    INSERT INTO users (name, phone, email, password_hash)
+    VALUES (?, ?, ?, ?)
+    """, users)
+
+    conn.commit()
+    conn.close()
+    print("✅ Users inserted")
+
+def insert_accounts():
+    conn = get_connection()
+    cursor = conn.cursor()
+
+    accounts = [
+        (1, "ACC001", 50000),
+        (2, "ACC002", 60000),
+        (3, "ACC003", 55000),
+        (4, "ACC004", 70000),
+        (5, "ACC005", 65000),
+        (6, "ACC006", 80000),
+        (7, "ACC007", 45000),
+        (8, "ACC008", 90000),
+        (9, "ACC009", 72000),
+        (10, "ACC010", 100000),
+    ]
+
+    cursor.executemany("""
+    INSERT INTO accounts (user_id, account_number, balance)
+    VALUES (?, ?, ?)
+    """, accounts)
+
+    conn.commit()
+    conn.close()
+    print("✅ Accounts inserted")
 
 # -------------------------
 # Insert Beneficiaries (ALL 10 USERS)
@@ -269,6 +320,24 @@ def get_transaction_history(user_id):
     ORDER BY trans_date DESC
     LIMIT 10
     """, (user_id,))
+
+    rows = cursor.fetchall()
+    conn.close()
+    return rows
+
+from datetime import datetime
+
+def get_transactions_by_time(user_id, start_date, end_date):
+    conn = get_connection()
+    cursor = conn.cursor()
+
+    cursor.execute("""
+    SELECT description, amount, trans_date
+    FROM transactions
+    WHERE user_id = ?
+      AND trans_date BETWEEN ? AND ?
+    ORDER BY trans_date DESC
+    """, (user_id, start_date, end_date))
 
     rows = cursor.fetchall()
     conn.close()
