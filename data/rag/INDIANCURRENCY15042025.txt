@@ -1,0 +1,229 @@
+Indian Currency 
+(Updated as on April 15, 2025) 
+A. Basics of Indian Currency/Currency Management 
+ 
+Q: What is the Indian currency called and what is its symbol? 
+A:The Indian currency is called the Indian Rupee (INR). One Rupee consists of 100 Paise. The symbol of the Indian Rupee is ?. The design resembles both the Devanagari letter "?" (ra) and the Latin capital letter "R", with a double horizontal line at the top. 
+Q: What is legal tender? 
+A:Legal Tender is a coin or a banknote that is legally tenderable for discharge of debt or obligation. 
+The coins issued by Government of India under Section 6 of The Coinage Act, 2011, shall be legal tender in payment or on account provided that a coin has not been defaced and has not lost weight so as to be less than such weight as may be prescribed in its case. Coin of any denomination not lower than one rupee shall be legal tender for any sum not exceeding one thousand rupee in any single transaction. Fifty paise (half rupee) coin shall be legal tender for any sum not exceeding ten rupee. While anyone cannot be forced to accept coins beyond the limits mentioned above, voluntarily accepting coins for amounts exceeding the limits mentioned above is not prohibited. 
+Every banknote issued by Reserve Bank of India (?2, ?5, ?10, ?20, ?50, ?100, ?200, ?500, and ?2000*), unless withdrawn from circulation, shall be legal tender at any place in India in payment or on account for the amount expressed therein, and shall be guaranteed by the Central Government, subject to provisions of sub-section (2) Section 26 of RBI Act, 1934. ?1 notes issued by Government of India are also Legal 
+Tender. ?500 and ?1000 banknotes of Mahatma Gandhi series issued up to November 08, 2016, have ceased to be Legal Tender with effect from the midnight of November 8, 2016. 
+*?2000 denomination notes continue to be legal tender. For more details, please refer to our press release 2023-2024/851 dated September 01, 2023 (https://www.rbi.org.in/scripts/FS_PressRelease.aspx?prid=56301&fn=2753).  
+Q: Where are bank notes and coins produced/minted? 
+A:Bank notes are printed at four currency presses, two of which are owned by the 
+Government of India through its Corporation, Security Printing and Minting Corporation of India Ltd. (SPMCIL) and two are owned by the Reserve Bank, through its wholly owned subsidiary, Bharatiya Reserve Bank Note Mudran Private Ltd. (BRBNMPL). The currency presses of SPMCIL are at Nasik (Western India) and Dewas (Central India). The two presses of BRBNMPL are at Mysuru (Southern India) and Salboni (Eastern India). 
+Coins are minted in four mints owned by SPMCIL. The mints are located at Mumbai, Hyderabad, Kolkata and NOIDA. The coins are issued for circulation only through the Reserve Bank in terms of Section 38 of the RBI Act. 
+Q: What is a currency chest? 
+A:To facilitate the distribution of banknotes and rupee coins, the Reserve Bank has authorised select scheduled banks to establish currency chests. These are storehouses where banknotes and rupee coins are stocked on behalf of the Reserve Bank for distribution to bank branches in their area of operation. As on February 28, 2025, there were 2691 currency chests. 
+[The currency chests are expected to distribute banknotes and rupee coins to other bank branches in their area of operation.] 
+Q: What is a small coin depot? 
+A:Some banks are authorised to establish Small Coin Depots to stock and distribute small coins i.e. coins of value below Rupee One to bank branches in their area of operation. As on February 28, 2025, there were 2299 small coin depots. 
+Q: What is the role of the Reserve Bank of India in currency management? 
+A:In terms of Section 22 of the Act, Reserve Bank has the sole right to issue banknotes in India. Section 25 states that the design, form and material of bank notes shall be such as may be approved by the Central Government after consideration of the recommendations made by the Central Board of RBI. 
+The Reserve Bank, in consultation with the Central Government and other stake holders, estimates the quantity of banknotes that are likely to be needed denomination-wise in a year and places indents with the various currency printing presses for supply of banknotes. The Reserve Bank, in terms of its clean note policy, endeavours to ensure circulation of good quality banknotes to the members of public. With this objective in view, the banknotes received back from circulation at its Issue Offices and Currency Chests are examined and only notes considered fit for circulation are reissued while the others (soiled and mutilated) are destroyed. 
+In respect of coins, the role of RBI is limited to distribution of coins that are supplied by Government of India (GoI). The GoI is responsible for designing and minting of coins in various denominations as per the Coinage Act, 2011. 
+Q: Where can one find information regarding notes/coins supplied by RBI or currently in circulation? 
+A:The information about indent and supply of notes and coins or currency/coins in circulation is available on our website www.rbi.org.in, at the following link https://rbi.org.in/Scripts/AnnualReportMainDisplay.aspx. 
+Q: How does the Reserve Bank distribute currency to the people? 
+A:The Reserve Bank presently manages the currency operations through its 19 Issue Offices located at Ahmedabad, Bengaluru, Belapur, Bhopal, Bhubaneswar, Chandigarh, Chennai, Guwahati, Hyderabad, Jaipur, Jammu, Kanpur, Kolkata, Lucknow, Mumbai, Nagpur, New Delhi, Patna, Thiruvananthapuram and a currency chest at its Kochi office. Further, a wide network of currency chests maintained and managed by scheduled banks are part of currency management architecture. The Issue Offices receive fresh banknotes from the currency printing presses which in turn send fresh banknote remittances to the currency chests. Direct remittances of fresh banknotes by the presses to select currency chests also happen. 
+The Reserve Bank offices located at Hyderabad, Kolkata, Mumbai and New Delhi (Mint Linked Offices) receive coins from the mints. These offices then send the coins to the other offices of the Reserve Bank who in turn send the same to Currency Chests and Small Coin Depots. The banknotes and rupee coins are stocked at the currency chests and small coins at the small coin depots. The bank branches receive the banknotes and coins from the Currency Chests and Small Coin Depots for further distribution among the public. 
+ 
+Q: Where can I sell my old banknotes and coins? 
+A:Reserve Bank of India does not deal in matters pertaining to buying/ selling of old banknotes and coins. RBI has issued a press release dated August 04, 2021, on “RBI cautions the public not to fall prey to fictitious offers of buying/ selling of Old Banknotes and Coins”. This press release is also available on our website under Currency Management > Press release at the following link. 
+https://www.rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=51999 
+B. Banknotes 
+ 
+Q: What is the meaning of "I promise to pay" clause on the banknotes? As per A:Section 26 of Reserve Bank of India Act, 1934, the Bank is liable to pay the value of banknote. This is payable on demand by RBI, being the issuer. 
+The promissory clause printed on the banknotes i.e., "I promise to pay the bearer the sum of Rupees …” denotes the obligation on the part of the Bank towards the holder of the bank note. 
+Q: What is the Standard Value of Rupee? Are Paper Currency Acts still valid? A:The statutory provisions governing issuance of bank notes and coins currently in force are the Reserve Bank of India Act, 1934 and the Coinage Act, 2011. Provisions of these Acts do not refer to any standard value of rupee/ coin. The earlier statutes relating to paper currency and coins have been repealed. 
+Further, in terms of section 26 of the Reserve Bank of India Act, 1934, every bank note shall be legal tender at any place in India in payment or on account for the amount expressed therein and shall be guaranteed by the Central Government.  
+Besides, refund of value of a banknote shall be determined and done in accordance with the Reserve Bank of India (Note Refund) Rules, 2009 [As amended by Reserve Bank of India (Note Refund) Amendment Rules, 2018] read with the “Master Directions on Facility for Exchange of Notes and Coins” as issued from time to time by the Reserve Bank of India. 
+Q: Which denomination banknotes are currently in circulation? 
+A:Banknotes in India are currently being issued in the denomination of ?10, ?20, ?50, ?100 ?200, ?500, and ?2000*. These notes are called banknotes as they are issued by the Reserve Bank of India. The printing of notes in the denominations of ?2 and ?5 has been discontinued and these denominations have been coinised as the cost of printing and servicing these banknotes was not commensurate with their life. However, such banknotes issued earlier can still be found in circulation and these banknotes continue to be legal tender. ?1 notes are issued by the Government of India from time to time and such notes including those issued in the past also continue to be legal tender for transactions. 
+*?2000 denomination notes continue to be legal tender. For more details, please refer to our press release 2023-2024/851 dated September 01, 2023 (https://www.rbi.org.in/scripts/FS_PressRelease.aspx?prid=56301&fn=2753).  
+Q: Can banknotes be issued only in these denominations? 
+A:Not necessarily. In terms of Section 24 of the Reserve Bank of India Act, 1934, bank notes shall be of the denominational values of two rupees, five rupees, ten rupees, twenty rupees, fifty rupees, one hundred rupees, five hundred rupees, one thousand rupees, five thousand rupees and ten thousand rupees or of such other denominational values, not exceeding ten thousand rupees, as the Central Government may, on the recommendation of the Central Board, specify in this behalf. 
+Q: What is the highest denomination note ever printed? 
+A:The highest denomination note ever printed by the Reserve Bank of India was the ?10000 note in 1938 which was demonetized in January 1946. The ?10000 was again introduced in 1954. These notes were demonetized in 1978. 
+Q: What is currency paper made up of? 
+A:The paper currently being used for printing of banknotes in India is made by using 100% cotton. 
+Q: How many languages appear in the language panel of Indian banknotes? 
+A:Fifteen languages are appearing in the language panel of banknotes in addition to Hindi prominently displayed in the centre of the note and English on the reverse of the banknote. 
+ 
+Q: Is it possible to have two or more banknotes with the same serial number? A:Yes, it is possible to have two or more banknotes with the same serial number, but they would either have a different Inset Letter or year of printing or signature of a different Governor of RBI. An Inset Letter is an alphabet printed on the Number Panel of the banknote. There can be notes without any inset letter also. 
+Q: What is a "star series" banknote? 
+A:Fresh banknotes issued by Reserve Bank of India till August 2006 were serially numbered. Each of these banknote bears a distinctive serial number along with a prefix consisting of numerals and letter/s. The banknotes are issued in packets containing 100 pieces. 
+The Bank adopted the "STAR series" numbering system for replacement of defectively printed banknote in a packet of 100 pieces of serially numbered banknotes. The Star series banknotes are exactly similar to the other banknotes, but have an additional character viz., a *(star) in the number panel in the space between the prefixes. 
+Q: What is non-sequential numbering? 
+A:With a view to enhancing operational efficiency and cost effectiveness in banknote printing, non-sequential numbering was introduced in 2011 consistent with international best practices. Packets of banknotes with non-sequential numbering contain 100 notes which are not sequentially numbered. 
+Q: Who decides on the figure to be printed on a new banknote? 
+A:In terms of Section 25 of the RBI Act, the design, form and material of bank notes shall be such as may be approved by the Central Government after consideration of the recommendations made by Central Board. 
+Q: Who decides on the volume and value of banknotes to be printed and on what basis? 
+A:The volume and value of banknotes to be printed in a year depends on various factors such as (i) the expected increase in Notes in Circulation (NIC) to meet the growing needs of the public and (ii) the need for replacing soiled/mutilated notes so as to ensure that only good quality notes are in circulation. The expected increase in NIC is estimated using statistical models which consider macro-economic factors such as expected growth in GDP, inflation, interest rates, growth in non-cash modes of payment etc. The replacement requirement depends on the volume of notes already in circulation and the average life of banknotes. The Reserve Bank estimates the volume and value of notes to be printed in a year based on the above factors as well as feedback received from its own Regional Offices and banks regarding expected demand for cash and finalises the same in consultation with the Government of India and the printing presses. 
+Q: Are the banknotes issued by RBI backed by any assets such as gold? In A:terms of Section 33 of the RBI Act, 1934, all banknotes issued by RBI are backed by assets such as gold coin, gold bullion, foreign securities, rupee coin and rupee securities.  
+C. Different Types of Bank Notes and Security Features of banknotes 
+ 
+Q: What are the various types of banknotes issued since independence of India? 
+A:The details are as under: 
+i. Ashoka Pillar Banknotes: 
+The first banknote issued by independent India was the one rupee note issued in 1949. While retaining the same designs the new banknotes were issued with the symbol of Lion Capital of Ashoka Pillar at Sarnath in the watermark window in place of the portrait of King George. 
+The name of the issuer, the denomination and the guarantee clause were printed in Hindi on the new banknotes from the year 1951. The banknotes in the denomination of ?1000, ?5000 and ?10000 were issued in the year 1954. Banknotes in Ashoka Pillar watermark Series, in ?10 denomination were issued between 1967 and 1992, 
+?20 denomination in 1972 and 1975, ?50 in 1975 and 1981, and ?100 between 19671979. The banknotes issued during the above period, contained the symbols representing science and technology, progress, orientation to Indian Art forms. In the year 1970, banknotes with the legend "Satyameva Jayate", i.e., truth alone shall prevail were introduced for the first time. In October 1987, ?500, banknote was introduced with the portrait of Mahatma Gandhi and the Ashoka Pillar watermark. 
+ii. Mahatma Gandhi (MG) Series 1996 
+The details of banknotes issued in MG Series – 1996 is as under: 
+Denomination Month and year of introduction ?5 November 2001 ?10 June 1996 ?20 August 2001 ?50 March 1997 ?100 June 1996 ?500 October 1997 ?1000 November 2000 All the banknotes of this series bear the portrait of Mahatma Gandhi on the obverse (front) side, in place of symbol of Lion Capital of Ashoka Pillar, which has also been retained and shifted to the left side next to the watermark window. This means that these banknotes contain Mahatma Gandhi watermark as well as Mahatma Gandhi's portrait. 
+iii. Mahatma Gandhi series – 2005 banknotes 
+MG series 2005 banknotes were issued in the denomination of ?10, ?20, ?50, ?100, ?500 and ?1000 and contain some additional/new security features as compared to the 1996 MG series. The year of introduction of these banknotes is as under: 
+Denomination Month and year of Introduction ?50 and ?100 August 2005 ?500 and ?1000 October 2005 ?10 April 2006 ?20 August 2006 The Legal tender of banknotes of ?500 and ?1000 of this series was subsequently withdrawn w.e.f. the midnight of November 8, 2016. 
+iv. Mahatma Gandhi (New) Series (MGNS) – Nov 2016 
+The Mahatma Gandhi (New) Series, introduced in the year 2016, highlights the cultural heritage and scientific achievements of the country. The banknotes in the series are more wallet friendly, being of reduced dimensions and hence expected to incur less wear and tear. For the first time, designs for banknotes has been indigenously developed on themes reflecting the diverse history, culture and ethos of the country as also its scientific achievements. The colour scheme is sharp and vivid to make the banknotes distinctive. 
+The first banknote from the new series was introduced on November 8, 2016 in a new denomination i.e. ?2000 with the theme of Mangalyaan. Subsequently, banknotes in this series in denomination of ?500, ?200, ?100, ?50, ?20, and ?10 have also been introduced. 
+Q: Which denomination banknotes have been demonetised? 
+A:?500, ?1000 and ?10000 banknotes, which were then in circulation were demonetized in January 1946. The higher denomination banknotes in ?1000, ?5000 and ?10000 were reintroduced in the year 1954, and these banknotes (?1000, ?5000 and ?10000) were again demonetized in January 1978. 
+Recently, banknotes in the denomination of ?500 and ?1000 issued under the Mahatma Gandhi Series have been withdrawn from circulation with effect from the midnight of November 08, 2016, and are, therefore, no more legal tender. 
+As regards prohibition on holding, transferring, or receiving specified bank notes, Section 5 of The Specified Banknotes (Cessation of Liabilities) Act, 2017 reads as under: 
+On and from the appointed day, no person shall, knowingly or voluntarily, hold, transfer, or receive any specified bank note: 
+Provided that nothing contained in this section shall prohibit the holding of specified bank notes -  
+(a) by any person -  
+(i) up to the expiry of the grace period; or 
+(ii) after the expiry of the grace period, -  
+A. not more than ten notes in total, irrespective of the denomination; or 
+B. not more than twenty-five notes for the purposes of study, research, or numismatics. 
+(b) by the Reserve Bank or its agencies, or any other person authorised by the 
+Reserve Bank; 
+(c) by any person on the direction of a court in relation to any case pending in the court. 
+Directions and Circulars issued by RBI from time to time in connection with SBNs are available on our website www.rbi.org.in under Function wise sites>>Issuer of 
+Currency>>All 	You 	Wanted 	Know 	About 	SBNs 
+- https://www.rbi.org.in/scripts/bs_viewcontent.aspx?Id=3270. 
+Q: What is the status of withdrawal of pre-2005 series banknotes? Where can they be exchanged? 
+A:Reserve Bank of India decided to withdraw from circulation all banknotes issued prior to 2005 as they have fewer security features as compared to banknotes printed after 2005. It is a standard international practice to withdraw old series notes. The RBI has already been withdrawing these banknotes in a routine manner through banks. It is estimated that the volume of such banknotes (pre-2005) in circulation is not significant enough to impact the general public in a big way. The exchange facility for pre-2005 banknotes is available only at the following offices of the Reserve Bank: Ahmedabad, Bengaluru, Belapur, Bhopal, Bhubaneswar, Chandigarh, Chennai, Guwahati, Hyderabad, Jaipur, Jammu, Kanpur, Kolkata, Lucknow, Mumbai, Nagpur, New Delhi, Patna, Thiruvananthapuram, and Kochi. This, however, does not imply that banks cannot accept deposits of pre-2005 banknotes for crediting to the customers’ accounts. Please refer to our Press Release no. 2016-17/1565 dated December 19, 2016 in this regard which can be accessed at the following link https://www.rbi.org.in/scripts/FS_PressRelease.aspx?prid=38951&fn=2753. 
+Q: What happens to the old design banknotes when a new design is introduced? 
+A:Both old and new design notes usually circulate together for a while. The old design notes are then gradually withdrawn from circulation when they become unfit to be reissued. 
+Q: What is the need for printing different series of banknotes? 
+A:Central banks the world over change the design of their banknotes and introduce new security features primarily to make counterfeiting difficult and to stay ahead of counterfeiters. India also follows the same policy. 
+Q: What are the Security Features of banknotes in circulation? 
+A:The security features in MG Series 2005 and MG (New) Series banknotes are as under: 
+i. Security Thread: The silver-coloured machine-readable security thread in ?10, ?20 and ?50 denomination banknotes is windowed on front side and fully embedded on reverse side. The thread fluoresces in yellow on both sides under ultraviolet light. The thread appears as a continuous line from behind when held up against light. ?100 and above denomination banknotes have machine-readable windowed security thread with colour shift from green to blue when viewed from different angles. It fluoresces in yellow on the reverse and the text will fluoresce on the obverse under ultraviolet light. 
+ii. Intaglio Printing: The portrait of Mahatma Gandhi, Reserve Bank seal, Guarantee and promise clause, Ashoka Pillar emblem, RBI’s Governor's signature and the identification mark for the visually impaired persons are printed in intaglio in denominations ?100 and above. 
+iii. See through register: On the left side of the note, a part of the numeral of each denomination is printed on the obverse (front) and the other part on the reverse. The accurate back-to-back registration makes the numeral appear as one when viewed against light. 
+iv. Water Mark and electrotype watermark: The banknotes contain the portrait of Mahatma Gandhi in the watermark window with a light and shade effect and multidirectional lines. An electrotype mark showing the denominational numeral in each denomination banknote also appears in the watermark widow and these can be viewed better when the banknote is held against light. 
+v. Colour Shifting Ink: The numeral 200, 500 & 2000 on the ?200, ?500, and ?2000* banknotes are printed in a colour-shifting ink. The colour of these numerals appears green when the banknotes are held flat but would change to blue when the banknotes are held at an angle. 
+vi. Fluorescence: The number panels of the banknotes are printed in fluorescent ink. The banknotes also have dual-coloured optical fibres. Both can be seen when the banknotes are exposed to ultra-violet lamp. 
+vii. Latent Image: In the banknotes of ?20 and above in the MG-2005 Series, the vertical band next to the (right side) Mahatma Gandhi’s portrait contains a latent image, showing the denominational value. The value can be seen only when the banknote is held horizontally, and light allowed to fall on it; otherwise, this feature appears only as a vertical band. In the MG (New) Series banknotes, the latent image exists in denominations ?100 and above. 
+viii. Micro letterings: This feature appears at different places on the banknotes and can be seen better under a magnifying glass. ix. Additional Features introduced since 2015: 
+• New Numbering Pattern 
+The numerals in both the number panels of the banknotes are in ascending size from left to right while the first three alpha-numeric characters (prefix) will remain constant in size. 
+• Angular Bleed Lines and Increase in the size of Identification Marks 
+Angular Bleed Lines have been introduced in banknotes - 4 lines in 2 blocks in ?100, 4 angular bleed lines with two circles in between in ?200, 5 lines in 3 blocks in ?500, 7 in ?2000*. In addition, the size of the identification marks in denominations ?100 and above have been increased by 50 percent. 
+Information about the above security features present in the Indian banknotes denomination-wise is also available on the website www.rbi.org.in>>press releases. 
+Alternately, 	information 	can 	also 	be 	accessed 
+from https://www.rbi.org.in/scripts/FS_Notification.aspx?Id=11610&fn=2753&Mode =0. 
+*?2000 denomination notes continue to be legal tender. For more details, please refer to our press release 2023-2024/851 dated September 01, 2023 (https://www.rbi.org.in/scripts/FS_PressRelease.aspx?prid=56301&fn=2753).  
+Q: How can one distinguish the MG series-2005 banknotes? 
+A:In addition to the security features listed above, banknotes issued after introduction of MG series-2005 have the year of printing on the reverse of the banknotes which is not present in the pre-2005 series. 
+Q: What features on the banknote Mahatma Gandhi (New) Series (MGNS) can help visually challenged people identify the different denominations? 
+A:The Mahatma Gandhi (New) Series banknotes have a sharp colour contrast scheme to facilitate identification by the partially visually challenged. The banknotes from ?100 denomination onwards, have angular bleed lines (4 lines in 2 blocks in ?100, 4 angular bleed lines with two circles in between in ?200, 5 lines in 3 blocks in ?500, 7 in ? 2000*) and identification mark for the benefit of the visually challenged. There is an identification mark on the front side of each note which is in raised print (intaglio) and has different shapes for different denominations for e.g. Horizontal rectangle for ?2000, circle for ?500, raised Identification mark H for ?200, triangle for ?100. Further, in these denominations, numerals are prominently displayed in the central area of the notes in raised print. 
+*?2000 denomination notes continue to be legal tender. For more details, please refer to our press release 2023-2024/851 dated September 01, 2023 (https://www.rbi.org.in/scripts/FS_PressRelease.aspx?prid=56301&fn=2753).  
+Q: What is Mobile Aided Note Identifier (MANI)? 
+A:Mobile Aided Note Identifier (MANI) is a mobile application launched by the Reserve Bank for aiding visually impaired persons to identify the denomination of Indian Banknotes. The free of cost application, once installed, does not require internet and is capable of identifying the denominations of Mahatma Gandhi Series and Mahatma Gandhi (New) series banknote by checking front or reverse side/part of the note including half folded notes at various holding angles and in a broad range of light conditions (normal light/day light/low light etc). 
+Note: This mobile application does not authenticate a note as being either genuine or counterfeit. 
+Q: What are the quality control measures adopted in currency note printing? 
+A:The processes and systems followed for production of Indian banknotes are at par with the best practices adopted globally. In line with the same, banknote quality is maintained well within the various tolerance parameters for dimension, placement of design, print features etc. A press release issued by RBI in this regard can be accessed at the following link: https://www.rbi.org.in/scripts/FS_PressRelease.aspx?prid=41364&fn=2753. 
+D. Soiled, Mutilated and Imperfect Banknotes 
+ 
+Q: What are soiled banknotes? 
+A:A ‘soiled note’ means a note which has become dirty due to normal wear and tear and includes a two-piece note pasted together wherein both the pieces presented belong to the same note and form the entire note with no essential feature missing. 
+
+Q: What are mutilated banknotes?
+A: “Mutilated banknote” is a banknote, of which a portion is missing, or which is composed of more than two pieces. 
+
+Q: What are imperfect banknotes?
+A: “Imperfect banknote” means any banknote, which is wholly or partially, obliterated, shrunk, washed, altered or indecipherable but does not include a mutilated banknote. 
+Q: What is Clean Note Policy? 
+A:Reserve Bank of India has been continuously making efforts to make good quality banknotes available to the members of public. To help RBI and the banking system towards this objective, the members of public are requested to ensure the following: 
+• Not to staple the banknotes; 
+• Not to write/put rubber stamp or any other mark on the banknotes; 
+• Not to use banknotes for making garlands/toys, decorating pandals and places of worship or for showering on personalities in social events, etc. 
+Q: Are there any instructions for preventing the use of banknotes for making garlands? 
+A:The Reserve Bank of India has issued a press release on March 12, 2008, appealing members of public not to use banknotes for making garlands, decorating pandals and places of worship or for showering on personalities in social events, etc. Press Release issued in this regard is available at the following link: 
+https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=18026. 
+ 
+Q: Can soiled, mutilated and imperfect banknotes be exchanged for value? 
+A:Yes. Such banknotes can be exchanged for value. 
+Q: Where are soiled/mutilated banknotes accepted for exchange? 
+A:All banks are authorized to accept and exchange soiled banknotes for full value. They shall extend the facility of exchange of soiled/mutilated notes to non-customers also. 
+All branches of commercial banks are authorised to adjudicate mutilated banknotes (which are legal tender) and pay value for these, in terms of the Reserve Bank of India (Note Refund) Rules, 2009 [as amended by Reserve Bank of India (Note Refund) Amendment Rules, 2018]. 
+Small Finance Banks (up to two years from the commencement of their banking business) and Payment Banks may exchange mutilated and imperfect/defective notes at their option. 
+Q: How much value would one get in exchange of imperfect banknotes? 
+A:The value of an imperfect note may be paid for full value/half value under rules as specified in Part III of Reserve Bank of India (Note Refund) Rules, 2009 [As amended by Reserve Bank of India (Note Refund) Amendment Rules, 
+2018] available in our website under www.rbi.org.in ? Publications ? Occasional. 
+Q: What types of banknotes are eligible/not eligible for payment under the Note Refund Rules? 
+A:The details are available on our website at the following link: www.rbi.org.in >> Currency Management >>Notifications. 
+A summary of the old (2009) and amended NRR (2018) is as under: 
+Note Refund Rules - Amended 
+Sr. No. As per Old NRR (2009) As per Amended NRR (2018) 1 Notes up to ?20 denominations 
+ 
+i) area of single largest undivided piece of the note > 50% - Full value No change ii) area of largest undivided piece of the note =/< 50% - Reject 2 Notes 	of 	?50/- 	and 	above denominations 
+ 
+i) If area is less than 40% - Reject ii) If the area is equal to or more than 40% and less than or equal to 65% - Half value iii) If the area of the single largest undivided pieces is more than 65% 
+- Full value Notes 	of 	?50/- 	& 	above 
+denominations 
+ 
+i) If area is less than 40% - Reject ii) If the area is more than or equal to 40% and less than or equal to 
+80% - Half value iii) If the area of the single largest undivided pieces is more than 
+80% - Full value  
+Q: What if a banknote is found to be non-payable? 
+A:Non-payable banknotes are retained by the receiving banks and sent to the Reserve Bank where they are destroyed. 
+Q: Have guidelines been issued to deposit/exchange mutilated/soiled banknotes of new notes issued under Mahatma Gandhi (New) Series? 
+A:Guidelines for the exchange of mutilated/torn notes are available in our Master 
+Direction on “Facility for Exchange of Notes & Coins” DCM (NE) No.G5/08.07.18/2025-26 dated April 01, 2025 available on our website www.rbi.org.in under Notifications>Master Directions>Issuer of Currency. Mutilated notes can be exchanged at all bank branches in terms of Reserve Bank of India (Note Refund) Rules, 2009 [As amended by Reserve Bank of India (Note Refund) Amendment Rules, 2018]. 
+Q: Is the serial number essential when assessing the value of a damaged banknote? 
+A:The presence or absence of a serial number or other specific feature is not a determining factor when assessing damaged banknotes for value under the Reserve Bank of India (Note Refund) Rules, 2009 [as amended by Reserve Bank of India (Note Refund) Amendment Rules, 2018]. 
+Q: What happens when the banknotes return to RBI from circulation? 
+A:Banknotes returned from circulation are received at the Issue Offices of the Reserve Bank of India. The Reserve Bank of India, inter alia, uses highly sophisticated 
+Currency Verification & Processing Systems (CVPS) machines and Shredding and Briquetting Systems (SBS) machines to verify these notes for genuineness, arithmetical accuracy and segregation of notes into fit for reissue and destruction of soiled (unfit) notes. 
+Q: Are coloured/stained notes or scribbled notes legal tender? 
+A:All Bank notes including Mahatma Gandhi (New) series notes with writing or colour/ oil stains on them continue to be legal tender, provided they are decipherable. Such notes can be deposited or exchanged in any bank branch. 
+However, a claim in respect of bank notes which carries any extrinsic words or visible representations intended to convey or capable of conveying any message of a political or religious character or furthering the interest of any person or entity will be rejected as per Reserve Bank of India (Note Refund) Rules, 2009 [As amended by Reserve Bank of India (Note Refund) Amendment Rules, 2018]. 
+E. Counterfeits/Forgeries 
+Q: What is a forged note? 
+A:A suspected forged note, counterfeit note or fake note is any note which does not possess the characteristics of genuine Indian currency note. 
+Q: How to check whether a note is genuine or not? 
+A:A forged note can be identified on the basis of the security features which are present in a genuine Indian currency note. These features are easily identifiable by seeing, touching and tilting the note. The information regarding security features present in the Indian banknotes is available on the website www.rbi.org.in >>Currency 
+Management>> Indian Currency at https://indiancurrency.rbi.org.in/    
+Q: What are the legal provisions relating to printing and circulation of forged banknotes? 
+A:Counterfeiting banknotes / using forged or counterfeit banknotes as genuine banknotes / possession of forged or counterfeit banknote / making or possessing instruments or materials for forging or counterfeiting banknotes/making or using documents resembling banknotes are offences under various sections including Sections 178 to 182 the Bhartiya Nyaya Sanhita (BNS), 2023 and are punishable in the Courts of Law by fine or imprisonment ranging from seven years to life imprisonment or both, depending on the offence. 
+The Government of India has framed Investigation of High-Quality Counterfeit Indian Currency Offences Rules, 2013 under Unlawful Activities (Prevention) Act (UAPA), 1967. The Third Schedule of the Act defines High Quality Counterfeit Indian Currency Note. Activity of production, smuggling or circulation of High-Quality Counterfeit Indian Notes has been brought under the ambit of the BNS, 2023. 
+Q: Does possession of a forged note attract the punishment of fine or imprisonment? 
+A:Mere possession of a forged note does not attract punishment. Possession of any forged or counterfeit banknotes, knowing or having reason to believe the same to be forged or counterfeit and intending to use the same as genuine or that it may be used as genuine are offences under Section 180 of the Bhartiya Nyaya Sanhita (BNS), 2023 and are punishable in the Courts of Law by fine or imprisonment upto seven years or both.  
+Q: What are the actions taken by the Reserve Bank of India to train general public to distinguish genuine banknotes from forged notes? 
+A:The Reserve Bank of India has been organizing training sessions on the authentication of banknotes security features for people handling significant amounts of cash like banks/consumer forums/merchant associations/educational institutions/police professionals. Apart from the training sessions, information on security features of banknotes is also available on the Bank’s website at https://indiancurrency.rbi.org.in/. 
+F. Coins 
+Q: Which denominations of coins are currently in circulation? Can coins be issued only in these denominations? 
+A:Coins in India are presently being issued in denominations of 50 paise, one rupee, two rupees, five rupees, ten rupees and twenty rupees. Coins up to 50 paise are called 'small coins' and coins of Rupee one and above are called 'Rupee Coins'. Coins can be issued up to the denomination of ?1000 under The Coinage Act, 2011. 
+Q: Which denomination coins have been withdrawn from circulation? 
+A:Twenty-five (25) paise coins have been withdrawn from circulation with effect from June 30, 2011, vide gazette notification No. 2529 dated December 20, 2010, and are, therefore, no more legal tender. Coins of denominations below 25 paise were withdrawn from circulation much earlier. All other denominations of coins of various size, theme and design minted by Government of India under The Coinage Act, 2011 and issued by RBI for circulation from time to time, continue to remain legal tender. 
+Q: How much amount of coin can be deposited by the customer in the bank account? 
+A:RBI has not prescribed any limit for coin deposits by customers with banks. Banks are free to accept any amount of coins from their customers. 
+Q: Why is One Rupee Note liability of the Government of India? 
+A:The One Rupee notes issued under the Coinage Act, 2011 are legal tender and included in the expression Rupee coin for all the purposes of the Reserve Bank of India Act, 1934. Since the rupee coins issued by Government constitute the liabilities of the Government, one rupee Note is also liability of the Government of India. 
+Q: Is ?10 coin “without rupee symbol” a legal tender? 
+A:Yes. Different designs of ?10 coins are currently in circulation. All coins of ?10 denomination minted from time to time by the Government of India (with/without the Rupee symbol) are legal tender. For more details kindly see our Press Release issued in this regard which is available at the following link www.rbi.org.in>>Issuer of currency>>Press Release>>January 17, 
+2018. https://www.rbi.org.in/scripts/FS_PressRelease.aspx?prid=42887&fn=2753. 
+Q: Who is responsible for changing the design of coins from time to time? 
+A:The Government of India is responsible for the designing and minting of coins in various denominations. 
+Q: Who decides on the quantity of coins to be minted? 
+A:The Government of India decides on the quantity of coins to be minted on the basis of indent received from the Reserve Bank on yearly basis. 
+ 
+Q: Can coins be accepted in all the transactions as legal tender? 
+A:Coins of denominations 50 paise, one rupee, two rupees, five rupees, ten rupees and twenty rupees continue to be legal tender. 
+Reserve Bank of India has been issuing press releases from time to time advising the members of public to accept coins as legal tender in all their transactions without any hesitation. These press releases are available on our website www.rbi.org.in under Currency Management > Press release at the following links: 
+https://rbi.org.in/scripts/FS_PressRelease.aspx?prid=38636&fn=2753 https://rbi.org.in/scripts/FS_PressRelease.aspx?prid=42887&fn=2753 https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=47414 
+Further, RBI has been conducting awareness campaigns in Print, SMS and social media and also disseminates awareness on coins through “RBI says’’ and “RBI Kehta Hai’’ from time to time. 
+Besides, the Reserve Bank has instructed the banks to accept coins for transactions and exchange at all their branches. 
+Q: From where can one get commemorative coins? 
+A:For commemorative coins, you may refer to the website of SPMCIL at http://www.spmcil.com or contact SPMCIL. 
+Q: Where can one complaint against non-acceptance of coins or exchange of notes and coins by Banks? 
+A:Customers aggrieved with the services provided by the banks and a related grievance not resolved to the satisfaction of the customers, or not replied to within a period of 30 days by the bank may approach the RBI Ombudsman under ‘The Reserve Bank - Integrated Ombudsman Scheme, 2021’. Complaints can be filed online on https://cms.rbi.org.in  and also through the dedicated e-mail or sent in physical mode to the ‘Centralised Receipt and Processing Centre’ set up at Reserve Bank of India, 4th Floor, Sector 17, Chandigarh - 160017 with the bank/ postal receipts as proof for necessary action. 
+ 

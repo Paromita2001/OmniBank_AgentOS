@@ -1,0 +1,9 @@
+venv/
+__pycache__/
+*.pyc
+.env
+.streamlit/
+*.db
+*.sqlite
+vectorstore/
+services/vectorstore/
