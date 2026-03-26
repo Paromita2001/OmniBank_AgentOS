@@ -1,9 +1,5 @@
-from html import entities
-from itertools import count
-
-
 from pipeline.timeframe_parser import resolve_timeframe
-from db.banking_db import get_transactions_by_time
+# from db.banking_db import get_transactions_by_time
 
 
 # agents/bank_agent.py
@@ -23,9 +19,6 @@ from db.banking_db import (
     get_beneficiary_by_name,
     add_beneficiary   
 )
-
-
-from pipeline.timeframe_parser import resolve_timeframe
 
 
 class BankAgent:
@@ -132,6 +125,7 @@ class BankAgent:
                             pass  # show all
                         else:
                             txs = txs[:5]  # safe fallback
+                    # txs = txs[:int(count)]
 
             if not txs:
                 return "No transactions found."
@@ -146,14 +140,21 @@ class BankAgent:
         
         
 
+        # # =========================
+        # # 3️⃣ MONEY TRANSFER
+        # # =========================
+        # if sub_intent == "money_transfer":
+
+        #     # -------------------------
+        #     # 1️⃣ OTP CONFIRMATION
+        #     # -------------------------
+
         # =========================
-        # 3️⃣ MONEY TRANSFER
+        # 3️⃣ MONEY TRANSFER (OTP FLOW)
         # =========================
         if sub_intent == "money_transfer":
 
-            # -------------------------
-            # 1️⃣ OTP CONFIRMATION
-            # -------------------------
+            # ---- OTP CONFIRMATION STEP ----
             if "otp" in entities:
                 return self._verify_otp(
                     user_id=user_id,
@@ -243,6 +244,19 @@ class BankAgent:
             # ---------------------------------------
             # 4️⃣ Generate OTP
             # ---------------------------------------
+            amount = entities.get("amount")
+
+            # ---- Missing info checks ----
+            if not receiver and not amount:
+                return "Please tell me whom you want to send money to and the amount."
+
+            if not receiver:
+                return "Please tell me the receiver name."
+
+            if not amount:
+                return "Please tell me the amount you want to transfer."
+
+            # ---- Generate OTP ----
             otp = str(random.randint(100000, 999999))
 
             save_otp(
@@ -255,8 +269,6 @@ class BankAgent:
             )
 
             return f"OTP sent.\n(Demo OTP: {otp})"
-
-
 
 
         # =========================
@@ -309,3 +321,4 @@ class BankAgent:
         delete_otp(user_id)
 
         return msg
+        

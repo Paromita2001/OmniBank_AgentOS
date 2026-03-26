@@ -1,149 +1,3 @@
-# # pipeline/intent_parser.py
-
-# from pydantic import BaseModel, Field
-# from langchain_core.output_parsers import PydanticOutputParser
-# from langchain_core.prompts import ChatPromptTemplate
-# from pipeline.llm import get_llm
-# import re
-
-
-# # ---------- Output Schema ----------
-# class IntentOutput(BaseModel):
-#     intent: str = Field(
-#         description="One of: banking, reminder, analytics, information, other"
-#     )
-#     sub_intent: str = Field(
-#         description="Specific action like transaction_history, balance_check, money_transfer, spending_analysis, unknown"
-#     )
-#     actionable: bool = Field(
-#         description="True only if this requires execution in DB. False for informational queries."
-#     )
-#     entities: dict = Field(
-#         default_factory=dict,
-#         description="Extracted entities like time range, amount, receiver, phone_number, otp"
-#     )
-
-
-
-# # ---------- Parser ----------
-# parser = PydanticOutputParser(pydantic_object=IntentOutput)
-
-
-# # ---------- Prompt ----------
-# prompt = ChatPromptTemplate.from_messages([
-#     (
-#         "system",
-#         """
-# You are an intent extraction engine for a banking assistant.
-
-# You MUST return JSON strictly in this format:
-# {format_instructions}
-
-# Rules:
-# - intent must be one of:
-#   - banking
-#   - reminder
-#   - analytics
-#   - information
-#   - other
-
-# - sub_intent must be one of:
-#   - transaction_history
-#   - balance_check
-#   - money_transfer
-#   - spending_analysis
-#   - unknown
-
-# Entity extraction rules:
-# - If user asks for "last N transactions", extract:
-#   entities.count = N
-# - If user asks for time-based queries, extract:
-#   entities.timeframe
-# - entities can include:
-#   - timeframe
-#   - count
-#   - amount
-#   - receiver
-
-# Actionable rules:
-
-# - balance_check is actionable ONLY if user refers to their own account (e.g. "my balance").
-# - money_transfer is actionable ONLY if amount AND receiver/phone_number are present.
-# - transaction_history is actionable.
-# - spending_analysis is actionable.
-# - If the query is informational (e.g. "What is transfer limit?"), set actionable = false.
-
-
-# If user provides a 10-digit phone number,
-# extract it as:
-# entities.phone_number
-
-# If user wants to set a reminder:
-
-# intent = reminder
-# sub_intent = add_reminder
-
-# Extract the following entities:
-
-# - task (what to do)
-# - date (if specific date mentioned)
-# - time (if mentioned)
-# - frequency (one of: daily, weekly, monthly, yearly, one_time)
-
-# Frequency rules:
-# - "every day" → daily
-# - "every week" or weekday like Monday → weekly
-# - "every month" or "2nd every month" → monthly
-# - "every year" or "every 15 August" → yearly
-# - specific date only → one_time
-# """
-#     ),
-#     ("human", "{user_input}")
-# ])
-
-
-# # ---------- Chain ----------
-# chain = prompt | get_llm() | parser
-
-
-# # ---------- Main Function ----------
-# def parse_intent(user_input: str) -> IntentOutput:
-#     user_input = user_input.strip()
-
-#     # 🔐 HARD OTP OVERRIDE (NO LLM)
-#     if re.fullmatch(r"\d{4,6}", user_input):
-#         return IntentOutput(
-#             intent="banking",
-#             sub_intent="money_transfer",
-#             actionable=True,
-#             entities={"otp": user_input}
-#         )
-
-
-#     # 🤖 LLM-based intent parsing
-#     result = chain.invoke({
-#         "user_input": user_input,
-#         "format_instructions": parser.get_format_instructions()
-#     })
-
-#     # 🔁 Normalize intent based on sub_intent
-#     if result.sub_intent in ["balance_check", "money_transfer", "transaction_history"]:
-#         result.intent = "banking"
-
-#     if result.sub_intent == "spending_analysis":
-#         result.intent = "analytics"
-
-#     # If not actionable → force informational
-#     if result.actionable is False and result.intent == "banking":
-#         result.intent = "information"
-
-#     return result
-
-
-
-
-
-
 # pipeline/intent_parser.py
 
 from pydantic import BaseModel, Field
@@ -169,6 +23,18 @@ class IntentOutput(BaseModel):
     )
 
 
+    #     description="High level intent like bank_action, reminder, info"
+    # )
+    # sub_intent: str = Field(
+    #     description="Specific action like transaction_history, balance_check, money_transfer"
+    # )
+    # entities: dict = Field(
+    #     default_factory=dict,
+    #     description="Extracted entities like time range, amount, receiver"
+    # )
+
+
+# ---------- Parser ----------
 parser = PydanticOutputParser(pydantic_object=IntentOutput)
 
 
@@ -320,6 +186,18 @@ actionable = false
 Return ONLY valid JSON.
 Do not explain anything.
 Do not add extra text.
+
+
+Entity extraction rules:
+- If user asks for "last N transactions", extract:
+  entities.count = N
+- If user asks for time-based queries, extract:
+  entities.timeframe
+- entities can include:
+  - timeframe
+  - count
+  - amount
+  - receiver
 """
     ),
     ("human", "{user_input}")
