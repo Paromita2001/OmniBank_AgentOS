@@ -48,7 +48,6 @@ def create_tables():
         category TEXT NOT NULL,
         created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
         UNIQUE(user_id, phone_number),
-        created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
         FOREIGN KEY (user_id) REFERENCES users(user_id)
     )
     """)
@@ -86,7 +85,7 @@ def insert_users():
     cursor = conn.cursor()
 
     users = [
-        ("Paromita", "7205013256", "paromitakarmakar06@gmail.com", "paromita@1234"),
+        ("Demo User", "9999999999", "demo@omnibank.com", "demo123"),
         ("User2", "9000000002", "u2@example.com", "pass"),
         ("User3", "9000000003", "u3@example.com", "pass"),
         ("User4", "9000000004", "u4@example.com", "pass"),
@@ -686,10 +685,51 @@ def add_beneficiary(user_id, name, phone_number, category):
 # -------------------------
 # OTP TABLE (CREATE ONCE)
 # -------------------------
+# def create_otp_table():
+#     conn = sqlite3.connect(str(DB_PATH))
+#     cursor = conn.cursor()
+
+#     cursor.execute("""
+#     CREATE TABLE IF NOT EXISTS otp (
+#         user_id INTEGER PRIMARY KEY,
+#         otp TEXT,
+#         receiver TEXT,
+#         phone_number TEXT,
+#         amount REAL,
+#         category TEXT,
+#         created_at TEXT
+#     )
+#     """)
+
+#     print("Creating OTP table in:", DB_PATH)
+
+#     conn = get_connection()
+#     cursor = conn.cursor()
+
+#     cursor.execute("""
+#     CREATE TABLE IF NOT EXISTS otp_store (
+#         user_id INTEGER,
+#         otp TEXT,
+#         receiver TEXT,
+#         amount REAL,
+#         created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+#     )
+#     """)
+
+#     conn.commit()
+#     conn.close()
+
+
+
+
+
+
+
 def create_otp_table():
-    conn = sqlite3.connect(str(DB_PATH))
+    conn = get_connection()
     cursor = conn.cursor()
 
+    # Create main OTP table
     cursor.execute("""
     CREATE TABLE IF NOT EXISTS otp (
         user_id INTEGER PRIMARY KEY,
@@ -702,11 +742,7 @@ def create_otp_table():
     )
     """)
 
-    print("Creating OTP table in:", DB_PATH)
-
-    conn = get_connection()
-    cursor = conn.cursor()
-
+    # Create backup/store table
     cursor.execute("""
     CREATE TABLE IF NOT EXISTS otp_store (
         user_id INTEGER,
@@ -717,9 +753,10 @@ def create_otp_table():
     )
     """)
 
-    conn.commit()
-    conn.close()
+    conn.commit()   # ✅ commit once
+    conn.close()    # ✅ close once
 
+    print("✅ OTP tables created successfully")
 
 # -------------------------
 # SAVE OTP
@@ -727,16 +764,52 @@ def create_otp_table():
 from datetime import datetime
 import sqlite3
 
+# def save_otp(user_id, otp, receiver, phone_number, amount, category):
+#     conn = sqlite3.connect(DB_PATH)
+#     cursor = conn.cursor()
+
+#     created_at = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+
+#     cursor.execute("""
+#         DELETE FROM otp WHERE user_id = ?
+#     """, (user_id,))
+
+#     cursor.execute("""
+#         INSERT INTO otp (
+#             user_id, otp, receiver, phone_number, amount, category, created_at
+#         )
+#         VALUES (?, ?, ?, ?, ?, ?, ?)
+#     """, (
+#         user_id,
+#         otp,
+#         receiver,
+#         phone_number,
+#         amount,
+#         category,
+#         created_at
+#     ))
+#     print("Saving OTP in:", DB_PATH)
+
+
+
+
+
+from datetime import datetime
+import sqlite3
+
 def save_otp(user_id, otp, receiver, phone_number, amount, category):
-    conn = sqlite3.connect(DB_PATH)
+    # conn = sqlite3.connect(DB_PATH)
+    conn = get_connection()
     cursor = conn.cursor()
 
     created_at = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
 
+    # Delete old OTP if exists
     cursor.execute("""
         DELETE FROM otp WHERE user_id = ?
     """, (user_id,))
 
+    # Insert new OTP
     cursor.execute("""
         INSERT INTO otp (
             user_id, otp, receiver, phone_number, amount, category, created_at
@@ -751,7 +824,12 @@ def save_otp(user_id, otp, receiver, phone_number, amount, category):
         category,
         created_at
     ))
-    print("Saving OTP in:", DB_PATH)
+
+    conn.commit()   # ✅ VERY IMPORTANT
+    conn.close()    # ✅ VERY IMPORTANT
+
+    print("✅ OTP saved successfully in:", DB_PATH)
+
 # def save_otp(user_id, otp, receiver, amount):
 #     conn = get_connection()
 #     cursor = conn.cursor()
@@ -792,6 +870,7 @@ def get_otp(user_id):
     record = cursor.fetchone()
     conn.close()
 
+    print("DEBUG get_otp:", record)
     return record
     
 

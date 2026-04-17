@@ -44,12 +44,32 @@ def intent_node(state: GraphState) -> GraphState:
             state["entities"] = {"otp": user_query.strip()}
             return state
 
-        # If category not yet provided
-        if category == "PENDING":
+        # # If category not yet provided
+        # if category == "PENDING":
+        #     state["intent"] = "banking"
+        #     state["sub_intent"] = "money_transfer"
+        #     state["entities"] = {"category": user_query}
+        #     return state
+        
+         
+
+        # if category == "PENDING":
+        if category == "PENDING" and user_query.isalpha():
+            print("DEBUG: PENDING flow triggered")
+
             state["intent"] = "banking"
             state["sub_intent"] = "money_transfer"
-            state["entities"] = {"category": user_query}
+
+            # 🔥 preserve previous entities
+            existing_entities = state.get("entities", {}) or {}
+
+            existing_entities["category"] = user_query
+
+            state["entities"] = existing_entities
+
             return state
+
+
     # ---------------------------------
     # LLM Parsing
     # ---------------------------------

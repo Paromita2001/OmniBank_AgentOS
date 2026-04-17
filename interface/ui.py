@@ -373,6 +373,37 @@ from services.auth_service import authenticate_user
 from db.banking_db import get_transactions_by_time
 
 
+from pathlib import Path
+from db.banking_db import (
+    create_tables,
+    insert_users,
+    insert_accounts,
+    insert_beneficiaries,
+    insert_transactions,
+    create_otp_table
+)
+from db.reminder_db import create_reminder_table
+from services.reminder_scheduler import start_scheduler
+
+DB_PATH = Path(__file__).parent.parent / "db" / "bank.db"
+
+# ✅ CREATE DB ONLY IF NOT EXISTS
+if not DB_PATH.exists():
+    create_tables()
+    create_otp_table()
+    create_reminder_table()
+
+    insert_users()
+    insert_accounts()
+    insert_beneficiaries()
+    insert_transactions()
+
+# ✅ START SCHEDULER ONLY ONCE
+import streamlit as st
+if "scheduler_started" not in st.session_state:
+    start_scheduler()
+    st.session_state.scheduler_started = True
+
 # --------------------------------
 # PAGE CONFIG
 # --------------------------------
